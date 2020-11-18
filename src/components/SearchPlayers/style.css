@@ -1,0 +1,31 @@
+label {
+  font-weight: bold;
+}
+
+.card {
+  border-top: 1px dashed var(--light-gray);
+  background: linear-gradient(to top, var(--light-gray), var(--white));
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.card p > span {
+  color: var(--dark-pink);
+  font-weight: 500;
+}
+
+.card p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-section {
+    width: 40%;
+  }
+}

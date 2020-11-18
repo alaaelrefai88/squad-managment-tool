@@ -1,0 +1,38 @@
+.radios-btns {
+  display: flex;
+}
+
+.radios-btns :nth-child(1) {
+  margin-right: 50px;
+}
+
+.form-group,
+.form-check {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .flex-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-2 {
+    width: 45%;
+  }
+}
+h6 {
+  color: var(--dark-gray);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container {
+    max-width: 712px !important;
+  }
+}

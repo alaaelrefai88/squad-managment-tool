@@ -1,0 +1,128 @@
+.container {
+  margin: 0 auto;
+  padding: 10px 5px;
+  max-width: 400px;
+}
+
+.selection-section {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.selection-section h6 {
+  margin-right: 35px;
+  color: black;
+}
+
+.formation-board {
+  background: linear-gradient(var(--light-pink), var(--purple));
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 96px 96px 96px 96px 96px;
+
+  justify-content: space-between;
+}
+
+.formation-1 {
+  grid-template-areas:
+    "ONE TWO THREE"
+    "FOUR FIVE SIX"
+    ". SEVEN ."
+    "EIGHT NINE TEN"
+    ". GK .";
+}
+.formation-8 {
+  grid-template-areas:
+    "ONE TWO THREE"
+    ". FOUR ."
+    "FIVE SIX SEVEN"
+    "EIGHT NINE TEN"
+    ". GK .";
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.goal-keeper {
+  position: relative;
+}
+
+.circle {
+  background-color: var(--light-purple);
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.circle span {
+  font-size: 2rem;
+}
+
+.one {
+  grid-area: ONE;
+}
+.two {
+  grid-area: TWO;
+}
+.three {
+  grid-area: THREE;
+}
+.four {
+  grid-area: FOUR;
+}
+.five {
+  grid-area: FIVE;
+}
+
+.six {
+  grid-area: SIX;
+}
+.seven {
+  grid-area: SEVEN;
+}
+
+.eight {
+  grid-area: EIGHT;
+}
+.nine {
+  grid-area: NINE;
+}
+.ten {
+  grid-area: TEN;
+}
+.goal-keeper {
+  grid-area: GK;
+}
+
+.btn-purple {
+  background: linear-gradient(var(--light-pink), var(--purple));
+  color: var(--white);
+  width: 100%;
+  margin: 20px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .configuration-section {
+    width: 50%;
+  }
+  .selection-section h6 {
+    margin-bottom: 0;
+  }
+}

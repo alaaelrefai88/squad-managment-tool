@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+*,
+button,
+input {
+  border: 0;
+}
+:root {
+  --dark-pink: rgb(163, 18, 79);
+  --light-pink: rgb(136, 28, 91);
+
+  --purple: rgb(119, 36, 108);
+  --light-purple: rgba(17, 6, 16, 0.5);
+
+  --dark-gray: rgb(146, 146, 146);
+  --light-gray: rgb(230, 230, 230);
+  --white: rgb(253, 253, 253);
+}

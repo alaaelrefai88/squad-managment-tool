@@ -1,0 +1,30 @@
+.card-wrap {
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0px 2px 13px -1px #000000;
+  background: white;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.btn.btn-outline-info.add-btn {
+  display: flex;
+  background: linear-gradient(to right, rgb(151, 3, 119), rgb(136, 2, 102));
+  border-radius: 0.9rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: 10px;
+  color: var(--dark-pink);
+  inline-size: 5px;
+  display: inline;
+}
+
+.title {
+  font-weight: bold;
+  color: var(--dark-pink);
+}
